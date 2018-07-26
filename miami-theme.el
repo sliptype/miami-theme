@@ -29,7 +29,7 @@
 
 ;;; Code:
 
- (deftheme miami-theme)
+ (deftheme miami)
  (let ((class '((class color) (min-colors 89)))
        (fg1 "#F8F8F8")
        (fg2 "#e2e2e2")
@@ -51,7 +51,7 @@
        (var     "#F8F8F8")
        (warning "#ff2323"))
    (custom-theme-set-faces
-   'miami-theme
+   'miami
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -247,7 +247,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'miami-theme)
+(provide-theme 'miami)
 
 ;; Local Variables:
 ;; no-byte-compile: t
