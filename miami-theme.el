@@ -35,7 +35,7 @@
        (fg3 "#cccccc")
        (fg4 "#b6b6b6")
 
-       (bg0 "#000000")
+       (bg0 "#1a1a1a")
        (bg1 "#1a1a1a")
        (bg2 "#2e2e2e")
        (bg3 "#4b4b4b")
