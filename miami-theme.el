@@ -87,7 +87,7 @@
    `(show-paren-match ((,class (:foreground ,keyword))))
    `(sp-wrap-pair-match-face ((,class (:foreground ,keyword))))
    `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
-   `(vertical-border ((,class (:foreground ,fg3))))
+   `(vertical-border ((,class (:foreground ,bg1))))
    `(minibuffer-prompt ((,class (:bold t :foreground ,keyword))))
    `(default-italic ((,class (:italic t))))
    `(link ((,class (:foreground ,const :underline t))))
