@@ -69,6 +69,7 @@
    `(whitespace-space ((,class (:background ,bg2 :foreground ,bg3))))
    `(whitespace-tab ((,class (:background ,bg2 :foreground ,bg3))))
    `(whitespace-hspace ((,class (:background ,bg2 :foreground ,bg3))))
+   `(whitespace-empty ((,class (:background ,bg2 :foreground ,bg3))))
 
    `(mode-line ((,class (:box nil :background ,bg1 :foreground ,bg5))))
    `(mode-line-inactive ((,class (:foreground ,bg5 :background ,bg2 :weight normal))))
